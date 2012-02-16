@@ -131,6 +131,9 @@
   <ItemGroup>
     <Manifest Include="MI_Visualisation.exe.manifest" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="rayCasting.frag" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

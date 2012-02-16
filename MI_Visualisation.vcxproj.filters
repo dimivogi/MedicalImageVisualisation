@@ -217,4 +217,7 @@
       <Filter>Source Files</Filter>
     </Manifest>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="rayCasting.frag" />
+  </ItemGroup>
 </Project>
