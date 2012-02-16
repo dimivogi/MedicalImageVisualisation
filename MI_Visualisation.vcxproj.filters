@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DICOM Loader">
+      <UniqueIdentifier>{a490fe09-701e-4087-b403-b17bed1df0b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window Management">
+      <UniqueIdentifier>{d3fc882c-21db-4e2d-a9b9-ce063954262e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DICOM Loader">
+      <UniqueIdentifier>{629efbd6-07ba-4a8a-a7ad-ca39bf8d7412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window Management">
+      <UniqueIdentifier>{cb25a3e2-4250-416f-814c-08d382f5d8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visualisation">
+      <UniqueIdentifier>{f5a6865f-a8c7-4091-b39a-529d2f52ea47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visualisation">
+      <UniqueIdentifier>{9ca65dd0-aa7c-4cf3-9ee4-a7c09516166b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window Management\Base Classes">
+      <UniqueIdentifier>{e4b4ed89-262f-4eea-b4ed-5ccf3ba0c25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window Management\OpenGL Classes">
+      <UniqueIdentifier>{c5eeeb78-639f-41d6-8e8b-933d821895fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window Management\Control">
+      <UniqueIdentifier>{f78b4bb0-a6cf-4b9c-b887-e19284af4940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window Management\Main Window Classes">
+      <UniqueIdentifier>{644912dc-c47c-4197-9a77-b6b04686e02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window Management\Base Classes">
+      <UniqueIdentifier>{1e4b7731-be63-4271-8202-0b6fb9b04ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window Management\Control">
+      <UniqueIdentifier>{b23e4ea5-056c-4ead-9cdf-890951fd6aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window Management\Main Window Classes">
+      <UniqueIdentifier>{509b05f4-0809-46fa-b21a-527c37685426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window Management\OpenGL Classes">
+      <UniqueIdentifier>{dca27032-28e0-4228-878b-9d02f227c04a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DICOM\DicomFileImage.h">
+      <Filter>Header Files\DICOM Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="DICOM\DicomHeaderDeclarations.h">
+      <Filter>Header Files\DICOM Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="DICOM\DicomParser.h">
+      <Filter>Header Files\DICOM Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="DICOM\DicomParserUtilityFunctions.h">
+      <Filter>Header Files\DICOM Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualisation\Shader.h">
+      <Filter>Header Files\Visualisation</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualisation\VectorTemplate.h">
+      <Filter>Header Files\Visualisation</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualisation\VisualisationDefinitions.h">
+      <Filter>Header Files\Visualisation</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\DataManager.h">
+      <Filter>Header Files\Window Management</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\RedirectIOToConsole.h">
+      <Filter>Header Files\Window Management</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\resource.h">
+      <Filter>Header Files\Window Management</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\WindowProcedure.h">
+      <Filter>Header Files\Window Management</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\Button.h">
+      <Filter>Header Files\Window Management\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\GenericController.h">
+      <Filter>Header Files\Window Management\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\GenericWindow.h">
+      <Filter>Header Files\Window Management\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\Control.h">
+      <Filter>Header Files\Window Management\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\TrackBar.h">
+      <Filter>Header Files\Window Management\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\DialogWindow.h">
+      <Filter>Header Files\Window Management\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\DisplayWindow.h">
+      <Filter>Header Files\Window Management\Main Window Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\DisplayWindowController.h">
+      <Filter>Header Files\Window Management\Main Window Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\MainController.h">
+      <Filter>Header Files\Window Management\Main Window Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\MainWindow.h">
+      <Filter>Header Files\Window Management\Main Window Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\OpenGLController.h">
+      <Filter>Header Files\Window Management\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\OpenGLWindow.h">
+      <Filter>Header Files\Window Management\OpenGL Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\OptionsWindow.h">
+      <Filter>Header Files\Window Management\Main Window Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\OptionsController.h">
+      <Filter>Header Files\Window Management\Main Window Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManagement\TextBox.h">
+      <Filter>Header Files\Window Management\Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DICOM\DicomFileImage.cpp">
+      <Filter>Source Files\DICOM Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="DICOM\DicomParserUtilityFunctions.cpp">
+      <Filter>Source Files\DICOM Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="DICOM\DicomParser.cpp">
+      <Filter>Source Files\DICOM Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualisation\Shader.cpp">
+      <Filter>Source Files\Visualisation</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\WindowProcedure.cpp">
+      <Filter>Source Files\Window Management</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\DataManager.cpp">
+      <Filter>Source Files\Window Management</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\OpenGLController.cpp">
+      <Filter>Source Files\Window Management\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\OpenGLWindow.cpp">
+      <Filter>Source Files\Window Management\OpenGL Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\OptionsWindow.cpp">
+      <Filter>Source Files\Window Management\Main Window Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\OptionsController.cpp">
+      <Filter>Source Files\Window Management\Main Window Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\MainWindow.cpp">
+      <Filter>Source Files\Window Management\Main Window Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\MainController.cpp">
+      <Filter>Source Files\Window Management\Main Window Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\DisplayWindowController.cpp">
+      <Filter>Source Files\Window Management\Main Window Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\DisplayWindow.cpp">
+      <Filter>Source Files\Window Management\Main Window Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\Control.cpp">
+      <Filter>Source Files\Window Management\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\DialogWindow.cpp">
+      <Filter>Source Files\Window Management\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\GenericController.cpp">
+      <Filter>Source Files\Window Management\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\GenericWindow.cpp">
+      <Filter>Source Files\Window Management\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\Button.cpp">
+      <Filter>Source Files\Window Management\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\TrackBar.cpp">
+      <Filter>Source Files\Window Management\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\RedirectIOToConsole.cpp">
+      <Filter>Source Files\Window Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManagement\TextBox.cpp">
+      <Filter>Source Files\Window Management\Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowManagement\WindowManagement.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="MI_Visualisation.exe.manifest">
+      <Filter>Source Files</Filter>
+    </Manifest>
+  </ItemGroup>
+</Project>

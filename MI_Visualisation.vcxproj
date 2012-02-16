@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{293B1412-F24A-40D9-B821-F323C0AC53B2}</ProjectGuid>
+    <RootNamespace>MI_Visualisation</RootNamespace>
+    <ProjectName>MI_Visualisation</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;glut32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;glut32.lib;comctl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DICOM\DicomFileImage.h" />
+    <ClInclude Include="DICOM\DicomHeaderDeclarations.h" />
+    <ClInclude Include="DICOM\DicomParser.h" />
+    <ClInclude Include="DICOM\DicomParserUtilityFunctions.h" />
+    <ClInclude Include="Visualisation\Shader.h" />
+    <ClInclude Include="Visualisation\VectorTemplate.h" />
+    <ClInclude Include="Visualisation\VisualisationDefinitions.h" />
+    <ClInclude Include="WindowManagement\Button.h" />
+    <ClInclude Include="WindowManagement\Control.h" />
+    <ClInclude Include="WindowManagement\DataManager.h" />
+    <ClInclude Include="WindowManagement\DialogWindow.h" />
+    <ClInclude Include="WindowManagement\DisplayWindow.h" />
+    <ClInclude Include="WindowManagement\DisplayWindowController.h" />
+    <ClInclude Include="WindowManagement\GenericController.h" />
+    <ClInclude Include="WindowManagement\GenericWindow.h" />
+    <ClInclude Include="WindowManagement\MainController.h" />
+    <ClInclude Include="WindowManagement\MainWindow.h" />
+    <ClInclude Include="WindowManagement\OpenGLController.h" />
+    <ClInclude Include="WindowManagement\OpenGLWindow.h" />
+    <ClInclude Include="WindowManagement\OptionsController.h" />
+    <ClInclude Include="WindowManagement\OptionsWindow.h" />
+    <ClInclude Include="WindowManagement\RedirectIOToConsole.h" />
+    <ClInclude Include="WindowManagement\resource.h" />
+    <ClInclude Include="WindowManagement\TextBox.h" />
+    <ClInclude Include="WindowManagement\TrackBar.h" />
+    <ClInclude Include="WindowManagement\WindowProcedure.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DICOM\DicomFileImage.cpp" />
+    <ClCompile Include="DICOM\DicomParser.cpp" />
+    <ClCompile Include="DICOM\DicomParserUtilityFunctions.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Visualisation\Shader.cpp" />
+    <ClCompile Include="WindowManagement\Button.cpp" />
+    <ClCompile Include="WindowManagement\Control.cpp" />
+    <ClCompile Include="WindowManagement\DataManager.cpp" />
+    <ClCompile Include="WindowManagement\DialogWindow.cpp" />
+    <ClCompile Include="WindowManagement\DisplayWindow.cpp" />
+    <ClCompile Include="WindowManagement\DisplayWindowController.cpp" />
+    <ClCompile Include="WindowManagement\GenericController.cpp" />
+    <ClCompile Include="WindowManagement\GenericWindow.cpp" />
+    <ClCompile Include="WindowManagement\MainController.cpp" />
+    <ClCompile Include="WindowManagement\MainWindow.cpp" />
+    <ClCompile Include="WindowManagement\OpenGLController.cpp" />
+    <ClCompile Include="WindowManagement\OpenGLWindow.cpp" />
+    <ClCompile Include="WindowManagement\OptionsController.cpp" />
+    <ClCompile Include="WindowManagement\OptionsWindow.cpp" />
+    <ClCompile Include="WindowManagement\RedirectIOToConsole.cpp" />
+    <ClCompile Include="WindowManagement\TextBox.cpp" />
+    <ClCompile Include="WindowManagement\TrackBar.cpp" />
+    <ClCompile Include="WindowManagement\WindowProcedure.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowManagement\WindowManagement.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="MI_Visualisation.exe.manifest" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

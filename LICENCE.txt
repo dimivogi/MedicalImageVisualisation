@@ -1,0 +1,5 @@
+THis software is provided as is, without any warranty
+for non commercial use.
+
+If you use this software or part of it's source code, 
+include this license as well, as well as a reference.
