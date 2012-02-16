@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MI_Visualisation", "..\MI_Visualisation\MI_Visualisation.vcxproj", "{293B1412-F24A-40D9-B821-F323C0AC53B2}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Medical Image Visualisation Installer", "..\Medical Image Visualisation Installer\Medical Image Visualisation Installer.vdproj", "{903D85AE-EA7D-4DB9-8CD4-A765C60A7D60}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MI_Visualisation", "MI_Visualisation.vcxproj", "{293B1412-F24A-40D9-B821-F323C0AC53B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +13,6 @@ Global
 		{293B1412-F24A-40D9-B821-F323C0AC53B2}.Debug|Win32.Build.0 = Debug|Win32
 		{293B1412-F24A-40D9-B821-F323C0AC53B2}.Release|Win32.ActiveCfg = Release|Win32
 		{293B1412-F24A-40D9-B821-F323C0AC53B2}.Release|Win32.Build.0 = Release|Win32
-		{903D85AE-EA7D-4DB9-8CD4-A765C60A7D60}.Debug|Win32.ActiveCfg = Debug
-		{903D85AE-EA7D-4DB9-8CD4-A765C60A7D60}.Release|Win32.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
