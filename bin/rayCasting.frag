@@ -35,10 +35,10 @@ vec3	shading( vec3 normal , vec3 light , vec3 view )
 	vec3	ambientLight = vec3(0.0,0.0,0.0);
 
 
-	vec3	half = normalize(light+view);
+	vec3	halfv = normalize(light+view);
 	
 	float	diffuseLight = max(dot(light,normal),0);
-	float	specularLight = pow(max(dot(half,normal),0),shininess);
+	float	specularLight = pow(max(dot(halfv,normal),0),shininess);
 	if ( diffuseLight <= 0 )	specularLight = 0;
 
 
