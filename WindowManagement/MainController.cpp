@@ -43,6 +43,11 @@ int	MainController::destroy()
 	return GenericController::destroy();
 };
 
+int	MainController::close()
+{
+	return ((MainWindow*)this->getControlSubject())->destroy_rendering();
+};
+
 int	MainController::size(int w, int h, WPARAM wParam)
 {
 	// Hack the maximized state size, because it ignores the windows taskbar

@@ -51,7 +51,7 @@ void DisplayWindow::runThread( OpenGLController* ctrl )
 		while(ctrl->getLoopFlag())
 		{
 			// Allow other processes to function as well
-			Sleep(1);
+			//Sleep(1);
 		
 		
 			// If there are any DICOM Images updates pending and we are not in lockdown

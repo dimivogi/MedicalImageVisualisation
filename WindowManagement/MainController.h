@@ -32,6 +32,8 @@ class	MainController : public GenericController
 		int						create();
 		// WM_DESTROY
 		int						destroy();
+		// WM_CLOSE
+		int						close();
 		// WM_SIZE
 		int						size( int w , int h , WPARAM wParam );
 		// WM_SYSCOMMAND

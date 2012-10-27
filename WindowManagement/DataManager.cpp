@@ -1195,7 +1195,7 @@ void	DataManager::minimapDestroy()
 
 void	DataManager::transferDestroy()
 {
-	this->deleteTransferTextures();
+ 	this->deleteTransferTextures();
 }
 
 

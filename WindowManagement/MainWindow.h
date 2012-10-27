@@ -34,6 +34,8 @@ class	MainWindow	: public GenericWindow
 		
 		// Create the main window
 		bool			create();
+		// Destroy the rendering thread.
+		int			destroy_rendering();
 
 		// Set the main window's and all the subwindow's dimensions
 		void			setDimensions( int width , int height );

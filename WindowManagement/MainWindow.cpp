@@ -49,6 +49,11 @@ bool	MainWindow::create()
 	return val1 && val2 && val3;
 };
 
+int	MainWindow::destroy_rendering()
+{
+	return display.getController()->close();
+};
+
 
 void	MainWindow::setDimensions( int width , int height )	
 {
