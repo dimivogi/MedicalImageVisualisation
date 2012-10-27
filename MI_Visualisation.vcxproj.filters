@@ -213,11 +213,9 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Manifest Include="MI_Visualisation.exe.manifest">
-      <Filter>Source Files</Filter>
-    </Manifest>
+    <None Include="rayCasting.frag" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="rayCasting.frag" />
+    <Manifest Include="MI_Visualisation.exe.manifest" />
   </ItemGroup>
 </Project>
